@@ -10,7 +10,7 @@ It performs the following checks
 2. Verifies the existence of the Content Security Policy header and analyzes its content.
 3. Identifies the presence of a Frame-Buster script in the page's source code.
 
-### Requiriments
+### Requirements
 
 The only Python library that doesn't come by default is Requests, so you can either install it using `python -m pip install requests` (you might need to use 'python3' instead), or through this script's requirements.txt using `pip install -r requirements.txt`.
 
