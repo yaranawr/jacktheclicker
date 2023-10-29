@@ -116,7 +116,7 @@ def check_frame_buster(url):
             print(colour('orange_msg', f'[!] Frame-buster found on the page, but can be bypassed using the \'sandbox=\"allow-forms\"\' attribute.'))
             time.sleep(2)
         else:
-            print('Frame-buster not found on the page.')
+            print('[!] Frame-buster not found on the page.')
             time.sleep(2)
     
     except requests.exceptions.RequestException as e:
