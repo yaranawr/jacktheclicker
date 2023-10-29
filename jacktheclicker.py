@@ -21,7 +21,6 @@
 # For details on the requirements necessary to run the tool, please refer to the 
 # requirements.txt file.
 
-import os
 import sys
 import re
 import requests
@@ -73,7 +72,7 @@ def check_csp(url):
 
         if content_security_policy:
             print(colour('green_msg', 'CSP policies found: '))
-            time.sleep(1)
+            time.sleep(2)
 
             csp_policies = content_security_policy.split(';')
 
