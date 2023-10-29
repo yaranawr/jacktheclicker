@@ -88,7 +88,7 @@ def check_csp(url):
                 if frame_ancestors_content.lower() == '\'none\'':
                     print(colour('green_msg', f'The site is likely protected against clickjacking. Frame-ancestors content: {frame_ancestors_content}'))
                     time.sleep(2)
-                elif frame_ancestors_content.lower() == '\'self\' *':
+                elif frame_ancestors_content.lower() == '\'self *\'':
                     print(colour('red_msg', f'[!] The site may be vulnerable to clickjacking. Frame-ancestors content: {frame_ancestors_content}'))
                     time.sleep(2)
                 else:
