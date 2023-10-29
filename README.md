@@ -19,7 +19,7 @@ The only Python library that doesn't come by default is Requests, so you can eit
 Download this repository:
 
 ```
-git clone link && cd jacktheclicker
+git clone https://github.com/yannawr/jacktheclicker && cd jacktheclicker
 ```
 
 ### Usage
