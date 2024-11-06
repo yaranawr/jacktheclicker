@@ -6,7 +6,7 @@
 # Version: 1.0.0
 # Creation: 2023-10-28
 # Author: yannawr
-# Repository: github.com/yannawr/jacktheclicker
+# Repository: github.com/yaranawr/jacktheclicker
 #
 # Jack the Clicker is a Python3 script designed to scan a website to determine 
 # if it's vulnerable to clickjacking.
